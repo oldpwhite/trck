@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragos y Cócteles</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .drink-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            margin: 10px;
+            background-color: #fff;
+            transition: box-shadow 0.3s ease;
+        }
+        .drink-card:hover {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .drink-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .drink-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+        .drink-description {
+            font-size: 14px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .drink-price {
+            font-size: 18px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .drinks-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Tragos y Cócteles</h1>
+        <p>Explora nuestra selección de tragos exquisitos</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="drinks-grid">
+            <!-- Aquí van los productos (tragos) -->
+            <div class="drink-card">
+                <img src="ruta-a-tu-imagen.jpg" alt="Margarita" class="drink-image">
+                <h2 class="drink-title">Margarita</h2>
+                <p class="drink-description">Un clásico con tequila, limón y sal.</p>
+                <p class="drink-price">S/ 25.00</p>
+            </div>
+            
+            <div class="drink-card">
+                <img src="ruta-a-tu-imagen.jpg" alt="Mojito" class="drink-image">
+                <h2 class="drink-title">Mojito</h2>
+                <p class="drink-description">Un refrescante cóctel de ron, lima y menta.</p>
+                <p class="drink-price">S/ 20.00</p>
+            </div>
+
+            <div class="drink-card">
+                <img src="ruta-a-tu-imagen.jpg" alt="Piña Colada" class="drink-image">
+                <h2 class="drink-title">Piña Colada</h2>
+                <p class="drink-description">Mezcla tropical de coco y piña.</p>
+                <p class="drink-price">S/ 28.00</p>
+            </div>
+
+            <!-- Puedes duplicar el bloque de arriba y cambiar los datos para agregar más tragos -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 Tragos y Cócteles - Todos los derechos reservados</p>
+    </div>
+
+</body>
+</html>
